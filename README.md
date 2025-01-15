@@ -1,11 +1,7 @@
 # Attack Resistant Defense Mechanisms Website
 
-
-
-## Attack Resistant Defense Mechanisms
-
 ### Overview of Research
-Attack resistance is a formal framework to evaluate defense mechanisms like ASLR and cryptographic obfuscation. It ensures that a protected program (\(P + D\)) is computationally indistinguishable from an ideal program (\(IP\)), even if both have the same bug. This means attackers cannot exploit vulnerabilities in \(P + D\) due to the defense mechanism \(D\). The framework reduces the attacker's success probability to negligible levels, leveraging security parameters like random seeds. Variants also address practical, weaker attackers, such as SAT-based models.
+Attack resistance is a formal framework to evaluate defense mechanisms like ASLR and cryptographic obfuscation. It ensures that a protected program (\(P + D\)) is computationally indistinguishable from an ideal program (\(IP\)), even if both have the same bug. This means attackers cannot exploit vulnerabilities in \(P + D\) due to the defense mechanism \(D\). The framework reduces the attacker's probability of success to negligible levels, leveraging security parameters like random seeds. Variants also address practical, weaker attackers, such as SAT-based models.
 
 
 ### Publications:
